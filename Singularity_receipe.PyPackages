@@ -1,0 +1,12 @@
+BootStrap: shub
+From: shub://elisadonnard/singularity:r3.5
+ 
+%labels
+ 
+    AUTHOR Yuming Cao
+    Version v3.0
+ 
+%post
+ 
+  pip install umi_tools
+
