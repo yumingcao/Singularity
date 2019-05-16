@@ -1,5 +1,5 @@
 BootStrap: shub
-From: shub://elisadonnard/singularity:r3.5
+From: shub://pranithavangala/Singularity_recipev1.R-3-4-3
  
 %labels
  
@@ -7,7 +7,6 @@ From: shub://elisadonnard/singularity:r3.5
     Version v3.0
  
 %post
-  hash -d pip
-  pip install --upgrade pip
+  pip install --upgrade --user pip
   pip install umi_tools
 
